@@ -4,14 +4,14 @@ class Channel {
 	
     // Atributos privados (#)
 	#id
-	#hash
+	#channel
 	#user
   	#messages;
 
     // Construtor
-    constructor(id, hash) {
+    constructor(id, channel) {
         this.#id = id;
-        this.#hash = hash;
+        this.#channel = channel;
         this.#user = [];
         this.#messages = [];
     }
@@ -25,12 +25,12 @@ class Channel {
         this.#id = id;
     }
 
-    getHash() {
-        return this.#hash;
+    getChannel() {
+        return this.#channel;
     }
 
-    setHash(name) {
-        this.#hash = hash;
+    setChannel(name) {
+        this.#channel = channel;
     }
 
     getUser() {
