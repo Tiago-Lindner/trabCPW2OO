@@ -2,7 +2,7 @@ class Message {
 
     // Atributos privados
     #id;
-    //#channel;
+    #channel;
 
     // Construtor
     constructor(id, text) {
