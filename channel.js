@@ -6,7 +6,7 @@ class Channel {
   #messages;
 
     // Construtor
-    constructor(id, name, hash, message) {
+    constructor(id, hash) {
         this.#id = id;
         this.#hash = hash;
         this.#user = [];
