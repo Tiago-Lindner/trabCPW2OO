@@ -6,7 +6,7 @@ class Channel {
 	#id
 	#hash
 	#user
-  #messages;
+  	#messages;
 
     // Construtor
     constructor(id, hash) {
