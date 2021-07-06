@@ -3,9 +3,9 @@
 
 // Importando as duas classes
 import { User } from "./User.js"
-import { Channel } from "./Channel.js"
-import { Message } from "./Message.js"
-import { VoiceMessage } from "./VoiceMessage.js"
+//import { Channel } from "./Channel.js"
+//import { Message } from "./Message.js"
+//import { VoiceMessage } from "./VoiceMessage.js"
 import { TextMessage } from "./TextMessage.js";
 
 // Instanciando os objetos
