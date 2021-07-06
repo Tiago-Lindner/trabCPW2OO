@@ -1,4 +1,7 @@
+import {User} from "./User.js"
+
 class Channel {
+	
     // Atributos privados (#)
 	#id
 	#hash
